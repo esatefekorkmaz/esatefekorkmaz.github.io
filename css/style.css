@@ -14,12 +14,12 @@ body{
   transform: translate(-50%, -50%);
 }
 #sayfa h1{
-  font-family: Rubik;
+  font-family: Poppins;
   font-weight: bold;
   font-size: 350%;
 }
 #sayfa h4{
-  font-family: Raleway;
+  font-family: Poppins;
   margin-bottom: 20px;
 }
 #links{
