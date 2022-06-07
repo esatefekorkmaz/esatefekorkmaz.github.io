@@ -134,11 +134,11 @@ footer p {
 		font-size: 0;
 	}
 	.carousel-caption h3 {
-		padding-bottom: 0.25vh;
+		padding-bottom: 0;
 		font-size: 4vw;
 	}
 	.carousel-caption .btn {
-		font-size: 4vw;
+		font-size: 3vw;
 	}
 }
 @media (orientation: portrait) and (min-width: 768px) {
