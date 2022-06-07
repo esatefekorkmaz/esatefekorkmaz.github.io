@@ -127,19 +127,19 @@ footer p {
 		width: 100vh;
 		height: 25vh;
 	}
-	/* .carousel-caption {
-		top: 2vw;
-	} */
+	.carousel-caption {
+		top: 1.25vh;
+	}
 	.carousel-caption h1 {
 		font-size: 0;
 	}
-	/* .carousel-caption h3 {
+	.carousel-caption h3 {
 		padding-bottom: 0;
 		font-size: 4vw;
 	}
 	.carousel-caption .btn {
 		font-size: 3vw;
-	} */
+	}
 }
 @media (orientation: portrait) and (min-width: 768px) {
 	.carousel-caption {
