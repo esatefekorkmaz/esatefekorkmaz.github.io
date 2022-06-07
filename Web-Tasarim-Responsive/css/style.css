@@ -124,8 +124,8 @@ footer p {
 		padding: 1vw;
 	}
 	.carousel-inner img {
-		width: 100vh;
-		height: 25vh;
+		width: 100vw;
+		height: 50vw;
 	}
 	.carousel-caption {
 		top: 15%;
@@ -140,7 +140,7 @@ footer p {
 }
 @media (orientation: portrait) and (min-width: 768px) {
 	.carousel-caption {
-		top: 20%;
+		top: 30%;
 	}
 	.carousel-caption h1 {
 		font-size: 5vw;
