@@ -19,7 +19,7 @@ body {
 }
 .carousel-caption {
 	position: absolute;
-	top: 25%;
+	top: 30%;
 	transform: translateY(-50%);
 }
 .carousel-caption h1 {
@@ -128,7 +128,7 @@ footer p {
 		height: 25vh;
 	}
 	.carousel-caption {
-		top: 1.25vh;
+		top: 5.5vh;
 	}
 	.carousel-caption h1 {
 		font-size: 0;
