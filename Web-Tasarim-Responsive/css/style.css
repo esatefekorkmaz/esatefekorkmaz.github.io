@@ -124,11 +124,11 @@ footer p {
 		padding: 1vw;
 	}
 	.carousel-inner img {
-		width: 125vh;
+		width: 100vh;
 		height: 25vh;
 	}
 	.carousel-caption {
-		top: 12.5%;
+		top: 2vh;
 	}
 	.carousel-caption h1 {
 		font-size: 0;
