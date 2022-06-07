@@ -1,2 +1,2 @@
-# esatefekorkmaz.github.io
-portfolio klasöründe yaptığım diğer websiteleri de mevcuttur.
+# Web Tasarım Responsive
+HTML, CSS, JS ve Bootstrap ile responsive website tasarımı.
