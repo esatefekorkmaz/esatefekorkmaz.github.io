@@ -128,7 +128,7 @@ footer p {
 		height: 25vh;
 	}
 	.carousel-caption {
-		top: 12.5vw;
+		top: 15%;
 	}
 	.carousel-caption h1 {
 		font-size: 0;
@@ -136,9 +136,6 @@ footer p {
 	.carousel-caption h3 {
 		padding-bottom: 0;
 		font-size: 4vw;
-	}
-	.carousel-caption .btn {
-		font-size: 3vw;
 	}
 }
 @media (orientation: portrait) and (min-width: 768px) {
@@ -150,8 +147,5 @@ footer p {
 	}
 	.carousel-caption h3 {
 		font-size: 2vw;
-	}
-	.carousel-caption .btn {
-		font-size: 1.5vw;
 	}
 }
