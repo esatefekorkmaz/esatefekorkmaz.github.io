@@ -1,0 +1,157 @@
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+[class*="col-"] {
+	padding: 1rem;
+}
+.navbar-brand {
+	font-family: Poppins;
+	font-weight: bold;
+}
+.nav-item {
+	font-family: Montserrat;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+.carousel-caption {
+	position: absolute;
+	top: 25%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1 {
+	font-size: 5vw;
+	font-family: Poppins;
+	font-weight: bold;
+}
+.carousel-caption h3 {
+	font-size: 2vw;
+	font-family: Montserrat;
+	padding-bottom: 1rem;
+}
+.btn {
+	font-family: Montserrat;
+	font-size: 1.5vw;
+}
+.jumbotron {
+	padding: 4rem;
+	background-color: #e7e9ed;
+}
+.jumbotron .lead {
+	font-family: Montserrat;
+	color: black;
+}
+.welcome {
+	width: 75%;
+	margin: 0 auto;
+}
+.welcome .display-4 {
+	font-family: Poppins;
+	font-weight: bold;
+}
+.welcome hr {
+	border-bottom: 2px solid black;
+	width: 95%;
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+.welcome .lead {
+	font-family: Montserrat;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.hizmetler h3 {
+	font-family: Poppins;
+	font-weight: bold;
+}
+.hizmetler p {
+	font-family: Montserrat;
+}
+.bx {
+	font-size: 4em;
+}
+.bx-code-alt {
+	color: #2163af;
+}
+.bxl-instagram {
+	color: #e1306c;
+}
+.bxl-facebook-square {
+	color: #3b5998;
+}
+.bxl-twitter {
+	color: #00aced;
+}
+.bxl-youtube {
+	color: #ff0000;
+}
+.bx-mobile-alt {
+	color: #563d7c;
+}
+.card-title {
+	font-family: Poppins;
+	font-weight: bold;
+}
+.card-text {
+	font-family: Montserrat;
+}
+.sosyal h1 {
+	font-family: Poppins;
+	font-weight: bold;
+	margin-bottom: 5rem;
+}
+.social a {
+	font-size: 2em;
+	padding: 3rem;
+}
+footer {
+	background-color: #373737;
+	height: 4rem;
+}
+footer p {
+	color: white;
+	margin: 0;
+	transform: translateY(75%);
+	font-family: Montserrat;
+}
+@media (orientation: portrait) {
+	.social a {
+		font-size: 3vw;
+		padding: 1vw;
+	}
+	.carousel-inner img {
+		width: 125vh;
+		height: 25vh;
+	}
+	.carousel-caption {
+		top: 12.5%;
+	}
+	.carousel-caption h1 {
+		font-size: 0;
+	}
+	.carousel-caption h3 {
+		padding-bottom: 0.25vh;
+		font-size: 4vw;
+	}
+	.carousel-caption .btn {
+		font-size: 4vw;
+	}
+}
+@media (orientation: portrait) and (min-width: 768px) {
+	.carousel-caption {
+		top: 20%;
+	}
+	.carousel-caption h1 {
+		font-size: 5vw;
+	}
+	.carousel-caption h3 {
+		font-size: 2vw;
+	}
+	.carousel-caption .btn {
+		font-size: 1.5vw;
+	}
+}
