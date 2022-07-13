@@ -1,0 +1,214 @@
+@font-face {
+    font-family: TF2Secondary;
+    src: url('../assets/tf2secondary.ttf');
+}
+
+@font-face {
+    font-family: TF2Build;
+    src: url('../assets/tf2build.ttf');
+}
+
+html,
+body {
+	max-width: 100%;
+	overflow-x: hidden;
+	background-color: #D4D3D1;
+}
+[class*="col-"] {
+	padding: 1rem;
+}
+.navbar{
+	background-color: #231F20;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.nav-link{
+	color: #F16F36 !important;
+	font-family: TF2Secondary;
+	font-size: 20px;
+}
+.nav-link:hover{
+	color: #ff9d68 !important;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+.carousel-caption {
+	position: absolute;
+	top: 30%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1 {
+	font-size: 5vw;
+	font-family: TF2Build;
+	font-weight: bold;
+}
+.discord-btn{
+	margin-right: 5px;
+}
+.jumbotron {
+	padding: 4rem;
+	background-color: #D1CBC6;
+	position: relative;
+}
+.jumbotron-2 {
+	background-color: #D4D3D1;
+}
+.jumbotron h1{
+	font-family: TF2Build;
+	color: #B35215;
+}
+.jumbotron .lead {
+	width: 50%;
+}
+.jumbotron-img{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	padding: 0;
+	height: 100%;
+}
+.jumbotron-img-2{
+	left: 0;
+}
+.jumbotron-img img{
+	max-height: 100%;
+	aspect-ratio: 1/1;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.jumbotron-img-2 img{
+	max-height: 100%;
+	max-width: 100%;
+	aspect-ratio: 1/1;
+}
+.welcome {
+	width: 75%;
+	margin: 0 auto;
+}
+.welcome .display-4 {
+	font-family: TF2Build;
+	font-weight: bold;
+	color: #484644;
+}
+.welcome hr {
+	border-bottom: 2px solid black;
+	width: 95%;
+	margin-top: 0.3rem;
+	margin-bottom: 1rem;
+}
+.welcome .lead {
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+.manifest-reverse{
+	flex-direction: row-reverse;
+}
+.manifest-text{
+	width: 50%;
+}
+.hizmetler h3 {
+	font-family: Poppins;
+	font-weight: bold;
+}
+.hizmetler p {
+	font-family: Montserrat;
+}
+.bx {
+	font-size: 4em;
+}
+.bx-code-alt {
+	color: #2163af;
+}
+.bxl-instagram {
+	color: #e1306c;
+}
+.bxl-facebook-square {
+	color: #3b5998;
+}
+.bxl-twitter {
+	color: #00aced;
+}
+.bxl-youtube {
+	color: #ff0000;
+}
+.bx-mobile-alt {
+	color: #563d7c;
+}
+.card-title {
+	font-family: Poppins;
+	font-weight: bold;
+}
+.card-text {
+	font-family: Montserrat;
+}
+.sosyal h1 {
+	font-family: Poppins;
+	font-weight: bold;
+	margin-bottom: 5rem;
+}
+.social a {
+	font-size: 2em;
+	padding: 3rem;
+}
+footer {
+	background-color: #373737;
+	height: 4rem;
+}
+footer p {
+	color: white;
+	margin: 0;
+	transform: translateY(75%);
+	font-family: TF2Secondary;
+}
+@media (orientation: portrait) {
+	.social a {
+		font-size: 3vw;
+		padding: 1vw;
+	}
+	.carousel-inner img {
+		height: 100%;
+	}
+	.navbar{
+		display: none;
+	}
+	.jumbotron .lead{
+		width: 100%;
+	}
+	.column-mobile{
+		flex-direction: column;
+	}
+	.jumbotron-img{
+		height: 25vw;
+	}
+	.jumbotron-img-2{
+		margin-bottom: 25px;
+	}
+	.w-100-mobile{
+		width: 100% !important;
+	}
+	.manifest, .manifest-reverse{
+		flex-direction: column;
+	}
+	.manifest-img{
+		margin-bottom: 2rem;
+	}
+	.manifest-text{
+		width: 100%;
+	}
+}
+@media (orientation: portrait) and (min-width: 768px) {
+	.carousel-caption {
+		top: 30%;
+	}
+	.carousel-caption h1 {
+		font-size: 5vw;
+	}
+	.carousel-caption h3 {
+		font-size: 2vw;
+	}
+}
